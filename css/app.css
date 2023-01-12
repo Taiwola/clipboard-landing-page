@@ -10,20 +10,30 @@
     --Grayish-Blue: hsl(201, 11%, 66%);
     --Dark-Grayish-Blue: hsl(201, 11%, 66%);
     --Strong-Cyan: hsl(171, 66%, 44%);
+    --very-Strong-Cyan: hsl(171, 86%, 42%);
     --Light-Blue: hsl(233, 100%, 69%);
+    --very-Light-Blue: hsl(233, 100%, 63%);
+    --black: hsl(240, 4%, 17%);
+    --white: hsl(0, 0%, 100%);
 }
 
 body{
     font-size: 18px;
-    font-family: 400;
+    /* font-family: 400; */
 }
+
+/* header */
 
 header{
     background-image: url("../images/bg-header-desktop.png");
     background-repeat: no-repeat;
-    height: 15rem;
+    height: 25rem;
     width: 100%;
     max-height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .header-img{
@@ -34,5 +44,106 @@ header{
 }
 
 .header-img > img{
-    padding-top: 70px;
+    padding-top: 30px;
+}
+
+
+.history-text > h1{
+    text-align: center;
+    color: var(--black);
+    font-family: 600;
+    margin-top: 50px;
+}
+
+.history-text > p{
+    color: var(--Dark-Grayish-Blue);
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.history-btn{
+    width: 100%;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1.5rem;
+}
+
+.history-btn > a{
+        padding: 10px 20px;
+        text-decoration: none;
+        color: var(--white);
+        border-radius: 18px;
+}
+
+.Ios{
+    background-color: var(--very-Strong-Cyan);
+}
+
+.Ios:hover{
+    background-color: var(--Strong-Cyan);
+}
+
+.Mac{
+    background-color: var(--very-Light-Blue);
+}
+
+.Mac:hover {
+    background-color: var(--Light-Blue);
+}
+
+/* body */
+
+main{
+    width: 100%;
+    margin: 0;
+    margin-top: 0;
+}
+
+.snippets{
+    padding-top: 6rem;
+    text-align: center;
+    width: 100%;
+    padding-bottom: 3rem;
+}
+
+.snippets >h2{
+    color: var(--black);
+}
+
+.snippets > p{
+    color: var(--Dark-Grayish-Blue);
+    margin-top: 1rem;
+
+}
+
+
+.main-div-2{
+    display: flex;
+    width: 100%;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-2-img{
+    width: 100%;
+}
+
+
+.div-2-text{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+    padding: 20px;
+}
+
+.text > h2{
+    color: var(--black);
+}
+
+.text > p{
+    color: var(--Dark-Grayish-Blue);
 }
