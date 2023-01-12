@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+:root{
+    --Grayish-Blue: hsl(201, 11%, 66%);
+    --Dark-Grayish-Blue: hsl(201, 11%, 66%);
+    --Strong-Cyan: hsl(171, 66%, 44%);
+    --Light-Blue: hsl(233, 100%, 69%);
+}
+
+body{
+    font-size: 18px;
+    font-family: 400;
+}
+
+header{
+    background-image: url("../images/bg-header-desktop.png");
+    background-repeat: no-repeat;
+    height: 15rem;
+}
+
