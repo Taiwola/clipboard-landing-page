@@ -15,11 +15,17 @@
     --very-Light-Blue: hsl(233, 100%, 63%);
     --black: hsl(240, 4%, 17%);
     --white: hsl(0, 0%, 100%);
+    --light-grey:hsl(210, 7%, 88%);;
 }
 
 body{
-    font-size: 18px;
+    font-size: 15px;
     /* font-family: 400; */
+}
+
+a{
+    text-decoration: none;
+    color: var(--Dark-Grayish-Blue);
 }
 
 /* header */
@@ -79,6 +85,7 @@ header{
 
 .Ios{
     background-color: var(--very-Strong-Cyan);
+    box-shadow: 1px 0px 2px 0px var(--very-Strong-Cyan);
 }
 
 .Ios:hover{
@@ -87,6 +94,7 @@ header{
 
 .Mac{
     background-color: var(--very-Light-Blue);
+    box-shadow: 1px 0px 2px 0px var(--very-Light-Blue);
 }
 
 .Mac:hover {
@@ -131,6 +139,10 @@ main{
     width: 100%;
 }
 
+.div-2-img > img{
+    object-fit: contain;
+}
+
 
 .div-2-text{
     width: 70%;
@@ -147,3 +159,133 @@ main{
 .text > p{
     color: var(--Dark-Grayish-Blue);
 }
+
+.main-div-3{
+    text-align: center;
+    margin-top: 4rem;
+}
+
+.main-div-3 > h3{
+    color: var(--black);
+}
+
+.main-div-3 > p{
+    color: var(--Dark-Grayish-Blue);
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.main-div-4{
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.div-4-img > img{
+    object-fit: contain;
+}
+
+.main-div-6{
+    display: flex;
+    padding: 40px;
+    gap: 1rem;
+    width: 100%;
+}
+
+.div-6-offers{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    text-align: center;
+    width: 100%;
+}
+
+.offer-text > h2{
+    color: var(--black);
+}
+
+.offer-text > p{
+    color: var(--Dark-Grayish-Blue);
+    margin-top: 1rem;
+    letter-spacing: 1px;
+}
+
+
+.main-div-7{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    width: 100%;
+    padding: 10px;
+    margin-top: 4rem;
+}
+
+.main-div-8{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.div-8-text{
+    text-align: center;
+}
+
+.div-8-text > h2{
+    color: var(--black);
+}
+
+.div-8-text > p{
+    color: var(--Dark-Grayish-Blue);
+    margin-top: 1rem;
+}
+
+footer{
+    width: 100%;
+    background-color: var(--light-grey);
+    padding: 15px;
+}
+
+.footer-div-1{
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-1-img > img{
+    width: 3rem;
+}
+
+
+.footer-2-text{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.footer-link > a:hover{
+    color: var(--very-Strong-Cyan);
+}
+
+.install{
+    margin-left: 2rem;
+}
+
+
+.footer-5-socials{
+    display: flex;
+    gap: 1.5rem;
+    margin-left: 5rem;
+}
+
+.footer-social > a:hover{
+    color: var(--very-Strong-Cyan);
+}
+
