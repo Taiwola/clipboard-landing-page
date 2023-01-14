@@ -178,6 +178,15 @@ main{
 .main-div-4{
     width: 100%;
     margin-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-4-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .div-4-img > img{
@@ -268,6 +277,8 @@ footer{
     display: flex;
     flex-direction: column;
     gap: 1rem;
+    justify-content: center;
+    align-items: center;
 }
 
 .footer-link > a:hover{
@@ -288,4 +299,120 @@ footer{
 .footer-social > a:hover{
     color: var(--very-Strong-Cyan);
 }
+
+/* media query */
+
+@media screen and (max-width: 480px){
+    header{
+        background-image: url("../images/bg-header-mobile.png");
+        background-size: cover;
+        height: 30rem;
+    }
+
+    .history-btn{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .Ios{
+        width: 100%;
+        text-align: center;
+    }
+
+    .Mac{
+        width: 100%;
+        text-align: center;
+    }
+
+    .main-div-2{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .div-2-img{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .div-2-img > img{
+        width: 70%;
+    }
+
+    .text{
+        text-align: center;
+    }
+
+    .main-div-6{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .main-div-7{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .footer-div-1{
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center;
+        align-items: center;
+        text-align: center; */
+        gap: 1rem;
+    
+    }
+
+  .footer-link{
+    /* text-align: center; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center;
+    align-items: center; */
+  }
+
+  .install{
+    margin-left: 0;
+  }
+
+  .footer-5-socials{
+    margin-left: 0;
+  }
+
+}
+
+
+@media screen and (max-width:768px) {
+    .main-div-7{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .main-div-2{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .div-2-img{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .div-2-img > img{
+        width: 80%;
+    }
+
+    .text{
+        text-align: center;
+    }
+}
+
 
